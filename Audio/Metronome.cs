@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public delegate void MetronomeEvent(Metronome metronome);
 
-// crude implimentation of actorA metronome, it isn't incredibly accurate but accurate enough for our needs
+// crude implimentation of a metronome, it isn't incredibly accurate but accurate enough for our needs
 public class Metronome : MonoBehaviour {
 	public int Counter;
 	private SettingsReader _settingsReader;
